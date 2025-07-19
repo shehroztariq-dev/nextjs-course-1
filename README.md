@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Here’s a professional **README.md** template for your **Truly** Next.js feedback website:
 
-## Getting Started
+---
 
-First, run the development server:
+# Truly
+
+**Truly** is a modern feedback collection platform built with **Next.js**. It allows you to gather real, actionable feedback from users in a simple and elegant way.
+
+## 🚀 Tech Stack
+
+| Technology      | Usage                                  |
+| --------------- | -------------------------------------- |
+| **Next.js**     | Frontend & API Routes                  |
+| **MongoDB**     | Database for storing feedback          |
+| **NextAuth.js** | Authentication (e.g., Google, GitHub)  |
+| **Zod**         | Input validation and schema definition |
+| **Resend API**  | Sending transactional emails           |
+| **shadcn/ui**   | Beautiful UI components                |
+
+---
+
+## ✨ Features
+
+- Collect user feedback easily
+- Email notifications using **Resend API**
+- Authentication via **NextAuth.js**
+- Form validation with **Zod**
+- Responsive & accessible UI with **shadcn/ui**
+- Secure data storage in **MongoDB**
+
+---
+
+## 📂 Project Structure
+
+```
+/app           - Next.js App Router
+/components    - Reusable UI components (shadcn/ui based)
+/lib           - Helpers & utilities (MongoDB, Resend, etc.)
+/schemas       - Zod schemas for validation
+/api           - Feedback APIs & auth routes
+```
+
+---
+
+## 🛠️ Getting Started
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/truly.git
+cd truly
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3️⃣ Environment Variables
+
+Create a `.env.local` file:
+
+```
+NEXTAUTH_URL=your-site-url
+NEXTAUTH_SECRET=your-next-auth-secret
+
+MONGODB_URI=your-mongodb-connection-string
+
+RESEND_API_KEY=your-resend-api-key
+RESEND_FROM=your-email@example.com
+```
+
+---
+
+## 🧪 Run Locally
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔐 Authentication
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **NextAuth.js** for secure user login
+- Supports OAuth (Google, GitHub, etc.)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📧 Email Integration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Uses **Resend API** to send confirmation or feedback notification emails
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📝 Validation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Zod** ensures data integrity on both client and server
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📦 Deployment
+
+Deployed on **Vercel** for the best Next.js support.
+
+---
+
+## 📄 License
+
+MIT License.
+
+---
+
+## 🌐 Live Demo
+
+Coming soon...
+
+---
