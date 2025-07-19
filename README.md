@@ -1,7 +1,3 @@
-Here’s a professional **README.md** template for your **Truly** Next.js feedback website:
-
----
-
 # Truly
 
 **Truly** is a modern feedback collection platform built with **Next.js**. It allows you to gather real, actionable feedback from users in a simple and elegant way.
@@ -118,6 +114,6 @@ MIT License.
 
 ## 🌐 Live Demo
 
-Coming soon...
+url: truly-feedback.vercel.app
 
 ---
