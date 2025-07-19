@@ -114,6 +114,6 @@ MIT License.
 
 ## 🌐 Live Demo
 
-url: truly-feedback.vercel.app
+[https://truly-feedback.vercel.app](https://truly-feedback.vercel.app)
 
 ---
